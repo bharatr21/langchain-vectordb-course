@@ -15,3 +15,8 @@ HUGGINGFACEHUB_API_TOKEN = '<Your HuggingFace Token>'
 ELEVEN_API_KEY = '<Your ElevenLabs API Key>'
 ```
 Other API keys may also be required while going through the course.
+
+**NOTE 1:** Some of the generated assets are added under [Assets](assets/) and most of the code is under the [Source](src/) folders.
+However, note that during the course, I had placed it all in the main directory itself, so file paths will have to be changed in the respective code notebooks.
+
+**NOTE 2:** I had taken this course using the free version of the GPT APIs, so there will be some places I was rate limited at `3 reqs/min` (A `RateLimitError` will be raised) - These sections will run properly on paid access to the respective APIs.
